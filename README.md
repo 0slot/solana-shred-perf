@@ -1,4 +1,4 @@
-# solana-rpc-perf
+# solana-shred-perf
 
 # Build
 cargo build

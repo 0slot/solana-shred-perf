@@ -1,0 +1,13 @@
+[package]
+name = "solana-shred-perf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+pretty_env_logger = "0.5"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4"
+clap = {version = "4.2.0", features = ["derive"]}
+solana-ledger = "2.3.4"
+anyhow = "1.0.98"
